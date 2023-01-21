@@ -82,7 +82,7 @@ public class Menu extends JFrame implements ActionListener{
     private JMenuItem getMnuMapaPlayer() {
     	if (mnuMapaPlayer == null){
     		mnuMapaPlayer = new JMenuItem();
-    		mnuMapaPlayer.setText("Mapa Player");
+    		mnuMapaPlayer.setText("Mapa Player 1");
         mnuMapaPlayer.addActionListener(this);
     	}
     	return mnuMapaPlayer;
@@ -91,7 +91,7 @@ public class Menu extends JFrame implements ActionListener{
     private JMenuItem getMnuMapaComputador() {
     	if (mnuMapaComputador == null){
     		mnuMapaComputador = new JMenuItem();
-    		mnuMapaComputador.setText("Mapa Computador");
+    		mnuMapaComputador.setText("Mapa Player 2");
         mnuMapaComputador.addActionListener(this);
     	}
     	return mnuMapaComputador;

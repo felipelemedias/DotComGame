@@ -48,11 +48,11 @@ public class Grid{
     String s;
     for(int i = 0; i < gridLength;i++){
       s = label.getText();
-      label.setText(s.substring(0, s.length() - 8) + i + " </html>");
+      label.setText(s.substring(0, s.length() - 8) + "-" + i + " </html>");
       for(int j = i*gridLength; j < (i+1)*gridLength; j++) {
 				s = label.getText();
         if(grid[j] == 1){
-          label.setText(s.substring(0, s.length() - 8) + " -0 " + " </html>");
+          label.setText(s.substring(0, s.length() - 8) + " 0 " + " </html>");
         }else{
           label.setText(s.substring(0, s.length() - 8) + " " + grid[j] + " " + " </html>");
         }
